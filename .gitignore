@@ -1,0 +1,41 @@
+secrets.toml
+.preswald_deploy
+.env.structured
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints
+
+# VS Code settings (optional)
+.vscode/
+
+# macOS / Windows files
+.DS_Store
+Thumbs.db
+
+# Streamlit cache and logs
+.streamlit/
+**/.streamlit/
+
+# Log files
+*.log
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# CSV or data files you don't want to commit
+*.csv
+
+# Python virtual environment metadata
+pip-wheel-metadata/
+
